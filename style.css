@@ -1,0 +1,168 @@
+/*ESTILO GERAL*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.flex{
+    display: flex;
+}
+
+body{
+    background-color: #515151;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1580px;
+    margin: 0 auto;
+}
+/*ESTILO HEADER*/
+
+header{
+    padding: 2px 3%;
+    background-color: rgb(80, 204, 204);
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+}
+
+header a:hover{
+    transform: scale(1.06);
+    transition: .2s;
+}
+
+header h1{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header .btn-contato button{
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: aquamarine;
+    border: 0;
+    border-radius: 2vh;
+    cursor: pointer;
+}
+
+/*ESTILO DO TOPO DO SITE*/
+
+div .topo-do-site{
+    padding: 15% 2%;
+    margin: 0px 0px 5vh 0px;
+}
+
+div .topo-do-site .flex{
+    align-items: center;
+    justify-content: space-between;
+    gap: 30%;
+}
+
+.topo-do-site h1 {
+    color: #fff;
+    font-size: 40px;
+}
+
+.topo-do-site p{
+    color: #fff;
+    font-size: 15px;
+    margin: 10px 0px;
+}
+
+.topo-do-site h1 span{
+    color: aquamarine;
+    font-size: 40px;
+}
+
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: aquamarine;
+    border: 0;
+    border-radius: 2vh;
+    cursor: pointer;
+}
+
+.txt-topo-site .btn-contato button:hover{
+    box-shadow: 0px 0px 7px rgb(173, 255, 228);
+}
+
+
+.txt-topo-site a:hover{
+    transform: scale(1.06);
+    transition: .3s;
+    display: inline-block;
+}
+
+div .icone{
+    display: flex;
+    flex-direction: row;
+    line-height: 10px;
+    margin: 0px 0px 2vh 0px;
+}
+
+div .icone a{
+    padding: 1vh;
+    font-size: 3vh;
+    color: aquamarine;
+}
+
+.especialidades h1{
+    color: #fff;
+    font-size: 40px;
+}
+
+.especialidades h1 span{
+    color: aquamarine;
+    font-size: 40px;
+}
+
+.especialidades .interface h1{
+    text-align:  center;
+}
+
+div .especialidades{
+    padding: 15px 2%;
+    margin: 0vh 0vh 10vh 0vh;
+}
+
+div .especialidades .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 30%;
+    
+}
+
+div .box{
+    font-size: 70px;
+    color: aquamarine;
+    padding: 4vh;
+}
+
+div .box i {
+    padding: 4vh;
+}
