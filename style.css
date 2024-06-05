@@ -12,7 +12,7 @@
 
 body{
     background-color: #515151;
-    height: 100vh;
+    height: 100px;
 }
 
 .interface{
@@ -22,8 +22,8 @@ body{
 /*ESTILO HEADER*/
 
 header{
-    padding: 2px 3%;
-    background-color: rgb(80, 204, 204);
+    padding: 2px 3px;
+    background-color: aquamarine;
 }
 
 header > .interface{
@@ -33,7 +33,7 @@ header > .interface{
 }
 
 header a{
-    color: #fff;
+    color: #515151;
     text-decoration: none;
     display: inline-block;
 }
@@ -41,12 +41,14 @@ header a{
 header a:hover{
     transform: scale(1.06);
     transition: .2s;
+    font-weight: 500;
 }
 
 header h1{
-    color: #fff;
+    color: #515151;
     font-size: 35px;
     font-weight: 700;
+    /* text-shadow: #515151 1px 1px 3px; */
 }
 
 header nav ul{
@@ -55,16 +57,17 @@ header nav ul{
 
 header nav li{
     display: inline-block;
-    padding: 0 40px;
+    padding: 0px 40px;
 }
 
 header .btn-contato button{
     padding: 10px 40px;
     font-size: 20px;
     font-weight: 800;
-    background-color: aquamarine;
+    background-color: aqua;
     border: 0;
-    border-radius: 2vh;
+    box-shadow: #515151 1px 1px 1px ;
+    border-radius: 15px;
     cursor: pointer;
 }
 
@@ -103,7 +106,7 @@ div .topo-do-site .flex{
     font-weight: 800;
     background-color: aquamarine;
     border: 0;
-    border-radius: 2vh;
+    border-radius: 15px;
     cursor: pointer;
 }
 
@@ -147,7 +150,7 @@ div .icone a{
 
 div .especialidades{
     padding: 15px 2%;
-    margin: 0vh 0vh 10vh 0vh;
+    margin: 0px 0px 100px 0px;
 }
 
 div .especialidades .flex{
@@ -160,9 +163,34 @@ div .especialidades .flex{
 div .box{
     font-size: 70px;
     color: aquamarine;
-    padding: 4vh;
+    padding: 40PX;
 }
 
 div .box i {
-    padding: 4vh;
+    padding: 40PX;
+}
+
+div .portifolio{
+    padding: 100px 4%;
+}
+
+div .portifolio .interface h1{
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+}
+
+div .portifolio .interface span{
+    color: aquamarine;
+}
+
+
+div .portifolio .interface .flex{
+    justify-content: space-around;
+}
+
+.img-projeto{
+    width: 400px;
+    height: 460px;
+    background-color: #fff;
 }
